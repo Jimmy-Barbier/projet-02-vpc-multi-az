@@ -212,46 +212,46 @@ terraform apply -auto-approve
 ## ✅ Résultats
 
 ### 01 — terraform init
-![terraform init](./actifs/captures/01-terraform-init.png)
+![terraform init](./assets/captures/01-terraform-init.png)
 
 ### 02 — terraform plan — 34 ressources à créer
-![terraform plan](./actifs/captures/02-terraform-plan.png)
+![terraform plan](./assets/captures/02-terraform-plan.png)
 
 ### 03 — terraform apply — Outputs finaux
-![terraform apply](./actifs/captures/03-terraform-apply.png)
+![terraform apply](./assets/captures/03-terraform-apply.png)
 
 ### 04 — VPC dans la console AWS
-![vpc](./actifs/captures/04-vpc.png)
+![vpc](./assets/captures/04-vpc.png)
 
 ### 05 — 4 Subnets Multi-AZ (2 publics + 2 privés)
-![subnets](./actifs/captures/05-subnets.png)
+![subnets](./assets/captures/05-subnets.png)
 
 ### 06 — Instance EC2 avec IAM Role attaché
-![ec2](./actifs/captures/06-ec2.png)
+![ec2](./assets/captures/06-ec2.png)
 
 ### 07 — RDS MySQL Multi-AZ — Primary AZ-b · Standby AZ-a
-![rds](./actifs/captures/07-rds.png)
+![rds](./assets/captures/07-rds.png)
 
 ### 08 — Application Load Balancer — Internet-facing
-![alb](./actifs/captures/08-alb.png)
+![alb](./assets/captures/08-alb.png)
 
 ### 09 — WAF avec 3 règles de protection
-![waf](./actifs/captures/09-waf.png)
+![waf](./assets/captures/09-waf.png)
 
 ### 10 — Secrets Manager — Credentials RDS chiffrés
-![secrets](./actifs/captures/10-secrets-manager.png)
+![secrets](./assets/captures/10-secrets-manager.png)
 
 ### 11 — Application Flask accessible via l'ALB
-![app](./actifs/captures/11-app-flask.png)
+![app](./assets/captures/11-app-flask.png)
 
 ### 12 — Security Groups (ALB · EC2 · RDS)
-![sg](./actifs/captures/12-security-groups.png)
+![sg](./assets/captures/12-security-groups.png)
 
 ### 13 — Auto Scaling Group — Min 1 / Max 2
-![asg](./actifs/captures/13-auto-scaling.png)
+![asg](./assets/captures/13-auto-scaling.png)
 
 ### 14 — NACLs (publique + privée)
-![nacl](./actifs/captures/14-nacl.png)
+![nacl](./assets/captures/14-nacl.png)
 
 ---
 
