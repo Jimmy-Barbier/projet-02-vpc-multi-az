@@ -221,7 +221,7 @@ terraform apply -auto-approve
 ![terraform apply](./assets/captures/03-terraform-apply.png)
 
 ### 04 — VPC dans la console AWS
-![vpc](./assets/captures/04-vpc.png)
+![vpc](./assets/captures/04-projet-02-vpc.png)
 
 ### 05 — 4 Subnets Multi-AZ (2 publics + 2 privés)
 ![subnets](./assets/captures/05-subnets.png)
