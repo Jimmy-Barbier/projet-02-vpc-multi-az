@@ -340,5 +340,9 @@ Ce projet constitue une base solide et fonctionnelle. Les améliorations suivant
 
 ## 👤 Auteur
 
-**Jimmy Barbier** — Cloud Engineer AWS en reconversion  
-🌐 [Portfolio](https://jimmy-barbier.github.io/portfolio/) · 💼 [LinkedIn](https://www.linkedin.com/in/jimmy-barbier-89740539a/)
+**Jimmy Barbier**
+Cloud Engineer AWS en reconversion | Sécurité Cloud | Remote
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jimmy_Barbier-blue?logo=linkedin)](https://www.linkedin.com/in/jimmy-barbier-89740539a/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-jimmy--barbier.github.io-informational)](https://jimmy-barbier.github.io/portfolio/)
+
