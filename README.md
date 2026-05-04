@@ -318,14 +318,23 @@ aws dynamodb delete-table --table-name projet-02-terraform-locks --region eu-wes
 
 ---
 
-## 🗺️ Roadmap
+## 🗺️ Évolutions prévues
 
-- [ ] CloudWatch Alarms — alertes CPU EC2 + RDS
-- [ ] CloudWatch Logs — centralisation des logs Flask
-- [ ] VPC Endpoints — accès S3 et Secrets Manager sans passer par Internet
-- [ ] Route 53 — nom de domaine custom au lieu de l'URL ALB
-- [ ] Autoscaling Policy — scale automatique selon charge CPU
-- [ ] HTTPS — certificat SSL via AWS Certificate Manager
+Ce projet constitue une base solide et fonctionnelle. Les améliorations suivantes sont identifiées pour une version plus complète :
+
+**Monitoring**
+- [ ] CloudWatch Alarms — alertes automatiques si CPU EC2 ou RDS dépasse 80%
+- [ ] CloudWatch Logs — centralisation des logs Flask pour analyse et débogage
+
+**Réseau**
+- [ ] VPC Endpoints — accès à S3 et Secrets Manager sans passer par Internet (sécurité + coût)
+- [ ] Route 53 — nom de domaine custom au lieu de l'URL générée par l'ALB
+
+**Scalabilité**
+- [ ] Autoscaling Policy — scale up/down automatique selon la charge CPU
+
+**Sécurité**
+- [ ] HTTPS — certificat SSL via AWS Certificate Manager + redirection HTTP → HTTPS
 
 ---
 
